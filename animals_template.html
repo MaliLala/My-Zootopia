@@ -1,206 +1,174 @@
-<html>
-    <head>
-        <style>
-        @gray-darker:               #444444;
-        @gray-dark:                 #696969;
-        @gray:                      #999999;
-        @gray-light:                #cccccc;
-        @gray-lighter:              #ececec;
-        @gray-lightest:             lighten(@gray-lighter,4%);
-
-
-        html {
-          background-color: #ffe9e9;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Animal Repository</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
         }
-
         h1 {
             text-align: center;
-            font-size: 40pt;
-            font-weight: normal;
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
         }
-
-        body {
-          font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
-          font-style: normal;
-          font-weight: 400;
-          letter-spacing: 0;
-          padding: 1rem;
-          text-rendering: optimizeLegibility;
-          -webkit-font-smoothing: antialiased;
-          -moz-osx-font-smoothing: grayscale;
-          -moz-font-feature-settings: "liga" on;
-          width: 900px;
-          margin: auto;
-        }
-
         .cards {
-          list-style: none;
-          margin: 0;
-          padding: 0;
+            list-style: none;
+            padding: 0;
+            margin: 20px auto;
+            max-width: 800px;
         }
-
         .cards__item {
-          background-color: white;
-          border-radius: 0.25rem;
-          box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
-          overflow: hidden;
-          padding: 1rem;
-          margin: 50px;
+            background: white;
+            margin: 10px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-
-        .card__title {
-          color: @gray-dark;
-          font-size: 1.25rem;
-          font-weight: 300;
-          letter-spacing: 2px;
-          text-transform: uppercase;
-        }
-
-        .card__text {
-          flex: 1 1 auto;
-          font-size: 0.95rem;
-          line-height: 2;
-          margin-bottom: 1.25rem;
-        }
-        </style>
-    </head>
-    <body>
-        <h1>My Animal Repository</h1>
-        <ul class="cards">
-            
-    <li>
-        <strong>Name:</strong> American Foxhound<br>
-        <strong>Diet:</strong> Omnivore<br>
-        <strong>Location:</strong> Unknown<br>
-        <strong>Type:</strong> Hound<br><br>
-    </li>
-    
-    <li>
-        <strong>Name:</strong> Arctic Fox<br>
-        <strong>Diet:</strong> Carnivore<br>
-        <strong>Location:</strong> Unknown<br>
-        <strong>Type:</strong> Mammal<br><br>
-    </li>
-    
-    <li>
-        <strong>Name:</strong> Cross Fox<br>
-        <strong>Diet:</strong> Carnivore<br>
-        <strong>Location:</strong> North America and Canada<br>
-        <strong>Type:</strong> mammal<br><br>
-    </li>
-    
-    <li>
-        <strong>Name:</strong> Darwin’s fox<br>
-        <strong>Diet:</strong> Omnivore<br>
-        <strong>Location:</strong> Chile<br>
-        <strong>Type:</strong> Mammal<br><br>
-    </li>
-    
-    <li>
-        <strong>Name:</strong> English Foxhound<br>
-        <strong>Diet:</strong> Omnivore<br>
-        <strong>Location:</strong> Unknown<br>
-        <strong>Type:</strong> Unknown<br><br>
-    </li>
-    
-    <li>
-        <strong>Name:</strong> Fennec Fox<br>
-        <strong>Diet:</strong> Omnivore<br>
-        <strong>Location:</strong> North Africa<br>
-        <strong>Type:</strong> Unknown<br><br>
-    </li>
-    
-    <li>
-        <strong>Name:</strong> Fox<br>
-        <strong>Diet:</strong> Carnivore<br>
-        <strong>Location:</strong> Unknown<br>
-        <strong>Type:</strong> Mammal<br><br>
-    </li>
-    
-    <li>
-        <strong>Name:</strong> Fox Snakes<br>
-        <strong>Diet:</strong> Carnivore<br>
-        <strong>Location:</strong> Unknown<br>
-        <strong>Type:</strong> Unknown<br><br>
-    </li>
-    
-    <li>
-        <strong>Name:</strong> Fox Squirrel<br>
-        <strong>Diet:</strong> Omnivore<br>
-        <strong>Location:</strong> Eastern and central United States<br>
-        <strong>Type:</strong> rodent<br><br>
-    </li>
-    
-    <li>
-        <strong>Name:</strong> Fox Terrier<br>
-        <strong>Diet:</strong> Omnivore<br>
-        <strong>Location:</strong> Unknown<br>
-        <strong>Type:</strong> Unknown<br><br>
-    </li>
-    
-    <li>
-        <strong>Name:</strong> Golden-Crowned Flying Fox<br>
-        <strong>Diet:</strong> Herbivore<br>
-        <strong>Location:</strong> Unknown<br>
-        <strong>Type:</strong> Unknown<br><br>
-    </li>
-    
-    <li>
-        <strong>Name:</strong> Gray Fox<br>
-        <strong>Diet:</strong> Omnivore<br>
-        <strong>Location:</strong> North America and northern part of South America<br>
-        <strong>Type:</strong> Mammal<br><br>
-    </li>
-    
-    <li>
-        <strong>Name:</strong> Kit Fox<br>
-        <strong>Diet:</strong> Omnivore<br>
-        <strong>Location:</strong> Southwest United States, North and Central Mexico<br>
-        <strong>Type:</strong> mammal<br><br>
-    </li>
-    
-    <li>
-        <strong>Name:</strong> Marble Fox<br>
-        <strong>Diet:</strong> Omnivore<br>
-        <strong>Location:</strong> Worldwide<br>
-        <strong>Type:</strong> Mammal<br><br>
-    </li>
-    
-    <li>
-        <strong>Name:</strong> Red Fox<br>
-        <strong>Diet:</strong> Omnivore<br>
-        <strong>Location:</strong> North America, Europe, Asia, North Africa, and Australia<br>
-        <strong>Type:</strong> Unknown<br><br>
-    </li>
-    
-    <li>
-        <strong>Name:</strong> Smooth Fox Terrier<br>
-        <strong>Diet:</strong> Omnivore<br>
-        <strong>Location:</strong> Unknown<br>
-        <strong>Type:</strong> Unknown<br><br>
-    </li>
-    
-    <li>
-        <strong>Name:</strong> Tibetan Fox<br>
-        <strong>Diet:</strong> Carnivore<br>
-        <strong>Location:</strong> Unknown<br>
-        <strong>Type:</strong> Mammal<br><br>
-    </li>
-    
-    <li>
-        <strong>Name:</strong> Toy Fox Terrier<br>
-        <strong>Diet:</strong> Omnivore<br>
-        <strong>Location:</strong> Unknown<br>
-        <strong>Type:</strong> Unknown<br><br>
-    </li>
-    
-    <li>
-        <strong>Name:</strong> Wire Fox Terrier<br>
-        <strong>Diet:</strong> Omnivore<br>
-        <strong>Location:</strong> Unknown<br>
-        <strong>Type:</strong> Unknown<br><br>
-    </li>
-    
-        </ul>
-    </body>
+    </style>
+</head>
+<body>
+    <h1>My Animal Repository</h1>
+    <ul class="cards">
+        
+        <li class="cards__item">
+            <strong>Name:</strong> American Foxhound<br/>
+            <strong>Diet:</strong> Omnivore<br/>
+            <strong>Location:</strong> Unknown<br/>
+            <strong>Type:</strong> Hound<br/>
+        </li>
+        
+        <li class="cards__item">
+            <strong>Name:</strong> Arctic Fox<br/>
+            <strong>Diet:</strong> Carnivore<br/>
+            <strong>Location:</strong> Unknown<br/>
+            <strong>Type:</strong> Mammal<br/>
+        </li>
+        
+        <li class="cards__item">
+            <strong>Name:</strong> Cross Fox<br/>
+            <strong>Diet:</strong> Carnivore<br/>
+            <strong>Location:</strong> North America and Canada<br/>
+            <strong>Type:</strong> mammal<br/>
+        </li>
+        
+        <li class="cards__item">
+            <strong>Name:</strong> Darwin’s fox<br/>
+            <strong>Diet:</strong> Omnivore<br/>
+            <strong>Location:</strong> Chile<br/>
+            <strong>Type:</strong> Mammal<br/>
+        </li>
+        
+        <li class="cards__item">
+            <strong>Name:</strong> English Foxhound<br/>
+            <strong>Diet:</strong> Omnivore<br/>
+            <strong>Location:</strong> Unknown<br/>
+            <strong>Type:</strong> Unknown<br/>
+        </li>
+        
+        <li class="cards__item">
+            <strong>Name:</strong> Fennec Fox<br/>
+            <strong>Diet:</strong> Omnivore<br/>
+            <strong>Location:</strong> North Africa<br/>
+            <strong>Type:</strong> Unknown<br/>
+        </li>
+        
+        <li class="cards__item">
+            <strong>Name:</strong> Fox<br/>
+            <strong>Diet:</strong> Carnivore<br/>
+            <strong>Location:</strong> Unknown<br/>
+            <strong>Type:</strong> Mammal<br/>
+        </li>
+        
+        <li class="cards__item">
+            <strong>Name:</strong> Fox Snakes<br/>
+            <strong>Diet:</strong> Carnivore<br/>
+            <strong>Location:</strong> Unknown<br/>
+            <strong>Type:</strong> Unknown<br/>
+        </li>
+        
+        <li class="cards__item">
+            <strong>Name:</strong> Fox Squirrel<br/>
+            <strong>Diet:</strong> Omnivore<br/>
+            <strong>Location:</strong> Eastern and central United States<br/>
+            <strong>Type:</strong> rodent<br/>
+        </li>
+        
+        <li class="cards__item">
+            <strong>Name:</strong> Fox Terrier<br/>
+            <strong>Diet:</strong> Omnivore<br/>
+            <strong>Location:</strong> Unknown<br/>
+            <strong>Type:</strong> Unknown<br/>
+        </li>
+        
+        <li class="cards__item">
+            <strong>Name:</strong> Golden-Crowned Flying Fox<br/>
+            <strong>Diet:</strong> Herbivore<br/>
+            <strong>Location:</strong> Unknown<br/>
+            <strong>Type:</strong> Unknown<br/>
+        </li>
+        
+        <li class="cards__item">
+            <strong>Name:</strong> Gray Fox<br/>
+            <strong>Diet:</strong> Omnivore<br/>
+            <strong>Location:</strong> North America and northern part of South America<br/>
+            <strong>Type:</strong> Mammal<br/>
+        </li>
+        
+        <li class="cards__item">
+            <strong>Name:</strong> Kit Fox<br/>
+            <strong>Diet:</strong> Omnivore<br/>
+            <strong>Location:</strong> Southwest United States, North and Central Mexico<br/>
+            <strong>Type:</strong> mammal<br/>
+        </li>
+        
+        <li class="cards__item">
+            <strong>Name:</strong> Marble Fox<br/>
+            <strong>Diet:</strong> Omnivore<br/>
+            <strong>Location:</strong> Worldwide<br/>
+            <strong>Type:</strong> Mammal<br/>
+        </li>
+        
+        <li class="cards__item">
+            <strong>Name:</strong> Red Fox<br/>
+            <strong>Diet:</strong> Omnivore<br/>
+            <strong>Location:</strong> North America, Europe, Asia, North Africa, and Australia<br/>
+            <strong>Type:</strong> Unknown<br/>
+        </li>
+        
+        <li class="cards__item">
+            <strong>Name:</strong> Smooth Fox Terrier<br/>
+            <strong>Diet:</strong> Omnivore<br/>
+            <strong>Location:</strong> Unknown<br/>
+            <strong>Type:</strong> Unknown<br/>
+        </li>
+        
+        <li class="cards__item">
+            <strong>Name:</strong> Tibetan Fox<br/>
+            <strong>Diet:</strong> Carnivore<br/>
+            <strong>Location:</strong> Unknown<br/>
+            <strong>Type:</strong> Mammal<br/>
+        </li>
+        
+        <li class="cards__item">
+            <strong>Name:</strong> Toy Fox Terrier<br/>
+            <strong>Diet:</strong> Omnivore<br/>
+            <strong>Location:</strong> Unknown<br/>
+            <strong>Type:</strong> Unknown<br/>
+        </li>
+        
+        <li class="cards__item">
+            <strong>Name:</strong> Wire Fox Terrier<br/>
+            <strong>Diet:</strong> Omnivore<br/>
+            <strong>Location:</strong> Unknown<br/>
+            <strong>Type:</strong> Unknown<br/>
+        </li>
+        
+    </ul>
+</body>
 </html>
